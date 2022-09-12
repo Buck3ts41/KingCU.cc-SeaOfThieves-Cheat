@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{67047565-15B1-44C5-B3A3-5B28016C226A}</ProjectGuid>
+    <RootNamespace>SoTExternalToolPremiumCore</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>SoT External Tool Premium</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(ProjectDir)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <OutDir>..\SOT_External_Tool</OutDir>
+    <TargetName>__</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(ProjectDir)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <OutDir>..\SOT_External_Tool</OutDir>
+    <TargetName>__</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>_WINDLL;%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories);$(SolutionDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <SDLCheck>
+      </SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories);$(SolutionDir)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="SoT_External_Tool_Premium\AimHelper\aimhelper_handler.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Core\globals.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Core\main.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Core\memory_manager.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Core\offsets.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Core\process_manager.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Core\render_tables.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Core\SOTStuff.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Core\w2s_manager.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Drawings\drawing_handler.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Drawings\drawing_manager.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Drawings\drawing_manager_utilities.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Drawings\vector.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Others\data_manager.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Others\treasures_manager.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Others\user_settings.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Overlay\D3DRenderer.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Overlay\imconfig.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Overlay\imgui.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Overlay\imgui_impl_dx9.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Overlay\imgui_internal.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Overlay\UIHandler.h" />
+    <ClInclude Include="SoT_External_Tool_Premium\Overlay\UIRenderer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SoT_External_Tool_Premium\AimHelper\aimhelper_handler.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Core\globals.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Core\main.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Core\memory_manager.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Core\process_manager.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Core\SOTStuff.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Core\w2s_manager.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Drawings\drawing_handler.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Drawings\drawing_manager.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Drawings\drawing_manager_utilities.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Others\data_manager.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Others\treasures_manager.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Others\user_settings.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Overlay\D3DRenderer.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Overlay\imgui.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Overlay\imgui_demo.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Overlay\imgui_draw.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Overlay\imgui_impl_dx9.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Overlay\UIHandler.cpp" />
+    <ClCompile Include="SoT_External_Tool_Premium\Overlay\UIRenderer.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

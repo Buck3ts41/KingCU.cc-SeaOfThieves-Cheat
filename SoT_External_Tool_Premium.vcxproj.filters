@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Overlay">
+      <UniqueIdentifier>{3e73d6d4-bfa8-462d-b911-0cb392574daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{4e8ff4e3-4488-445b-ab69-d5995bc7c0c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drawings">
+      <UniqueIdentifier>{9611376f-9ae7-4c61-aedb-ff412c7fefaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overlay\ImGUI">
+      <UniqueIdentifier>{431c01ea-aed3-4162-a8b6-7487b593ce57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Others">
+      <UniqueIdentifier>{d9a571c8-878f-461a-a02d-c3db6873dc28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AimHelper">
+      <UniqueIdentifier>{7f550ff0-ec2f-44fe-b71f-990f82200d28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SoT_External_Tool_Premium\Core\main.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Core\globals.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Core\process_manager.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Core\memory_manager.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Overlay\imconfig.h">
+      <Filter>Source Files\Overlay\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Overlay\imgui.h">
+      <Filter>Source Files\Overlay\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Overlay\imgui_internal.h">
+      <Filter>Source Files\Overlay\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Overlay\imgui_impl_dx9.h">
+      <Filter>Source Files\Overlay\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Overlay\D3DRenderer.h">
+      <Filter>Source Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Overlay\UIRenderer.h">
+      <Filter>Source Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Core\render_tables.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Drawings\drawing_handler.h">
+      <Filter>Source Files\Drawings</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Drawings\drawing_manager_utilities.h">
+      <Filter>Source Files\Drawings</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Drawings\vector.h">
+      <Filter>Source Files\Drawings</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Core\SOTStuff.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Core\w2s_manager.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Core\offsets.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Drawings\drawing_manager.h">
+      <Filter>Source Files\Drawings</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Overlay\UIHandler.h">
+      <Filter>Source Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Others\user_settings.h">
+      <Filter>Source Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\AimHelper\aimhelper_handler.h">
+      <Filter>Source Files\AimHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Others\data_manager.h">
+      <Filter>Source Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="SoT_External_Tool_Premium\Others\treasures_manager.h">
+      <Filter>Source Files\Others</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SoT_External_Tool_Premium\Core\main.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Core\globals.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Core\process_manager.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Core\memory_manager.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Overlay\imgui.cpp">
+      <Filter>Source Files\Overlay\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Overlay\imgui_demo.cpp">
+      <Filter>Source Files\Overlay\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Overlay\imgui_draw.cpp">
+      <Filter>Source Files\Overlay\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Overlay\imgui_impl_dx9.cpp">
+      <Filter>Source Files\Overlay\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Overlay\D3DRenderer.cpp">
+      <Filter>Source Files\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Overlay\UIRenderer.cpp">
+      <Filter>Source Files\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Drawings\drawing_handler.cpp">
+      <Filter>Source Files\Drawings</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Drawings\drawing_manager_utilities.cpp">
+      <Filter>Source Files\Drawings</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Core\SOTStuff.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Core\w2s_manager.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Drawings\drawing_manager.cpp">
+      <Filter>Source Files\Drawings</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Overlay\UIHandler.cpp">
+      <Filter>Source Files\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Others\user_settings.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\AimHelper\aimhelper_handler.cpp">
+      <Filter>Source Files\AimHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Others\data_manager.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="SoT_External_Tool_Premium\Others\treasures_manager.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
