@@ -62,13 +62,13 @@ public:
 
 	struct ABootyItemInfo
 	{
-		int BootyType = 1336;
-		int Rarity = 1708;
+		int BootyType = 1344;
+		int Rarity = 1716;
 	}ABootyItemInfo;
 
 	struct AShip
 	{
-		int CrewOwnershipComponent = 1936;
+		int CrewOwnershipComponent = 1952;
 		int ShipInternalWaterComponent = 0x05E0;
 		int ShipOwningActor = 0x3E0;
 	}AShip;
