@@ -1,5 +1,5 @@
 # KingCU.cc-SeaOfThieves-Cheat
-Sea Of Thieves cheat
+Sea Of Thieves cheat - Updated 03/10/2022
 
 This is a POC project, made just for fun.
 For now is 100% undetected, i will update offsets when new SoT version will release.
