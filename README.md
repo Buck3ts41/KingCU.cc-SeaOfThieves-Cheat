@@ -20,7 +20,8 @@ Compile in Release x64
 # Usage
 
 After compiling a new folder will create.
-Just start the .exe file in it when in lobby.
+Just make sure to start it when you are in the press a key to start screen.
+If you get pdevice error restart the program a few times
 
 # Credits
 
