@@ -1,9 +1,9 @@
-# KingCU.cc-SeaOfThieves-Cheat
-
-#Update
+# Update
 
 will be updated as soon as possible, if you want a 
 tutorial on how to update start an issue.
+
+# KingCU.cc-SeaOfThieves-Cheat
 
 Sea Of Thieves cheat - Updated 03/10/2022 (Outdated)
 
