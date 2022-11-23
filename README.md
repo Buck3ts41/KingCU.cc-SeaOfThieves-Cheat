@@ -1,5 +1,11 @@
 # KingCU.cc-SeaOfThieves-Cheat
-Sea Of Thieves cheat - Updated 03/10/2022
+
+#Update
+
+will be updated as soon as possible, if you want a 
+tutorial on how to update start an issue.
+
+Sea Of Thieves cheat - Updated 03/10/2022 (Outdated)
 
 This is a POC project, made just for fun.
 For now is 100% undetected, i will update offsets when new SoT version will release.
