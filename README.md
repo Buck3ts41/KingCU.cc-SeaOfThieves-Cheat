@@ -1,7 +1,6 @@
 # Update
 
-will be updated as soon as possible, if you want a 
-tutorial on how to update start an issue.
+update coming 26/11/2022
 
 # KingCU.cc-SeaOfThieves-Cheat
 
