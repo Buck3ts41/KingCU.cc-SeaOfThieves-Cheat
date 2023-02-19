@@ -16,7 +16,7 @@ void cUIRenderer::DrawInfo(IDirect3DDevice9* pDevice)
 {
 	char SET_NameBuf[48]; 
 	sprintf(SET_NameBuf, "KingCU.cc | Sea of Thieves | Beta");
-	printf(" Made By Buck3ts41 ");
+	
 	D3DRenderer->DrawStringOutline(SET_NameBuf, 15, (float)(ProcessManager->Size[1] * 0.020f), 110, 164, 235, 255, D3DRenderer->pFontUIMedium);
 	
 	char SET_InfoBuf[256];

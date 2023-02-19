@@ -25,7 +25,7 @@ public:
 	struct APlayerController
 	{
 		int Pawn = 976;
-		int Character = 0x3E8;
+		int Character = 992;
 		int CameraManager = 1112;
 		int ControlRotation = 772;
 	}APlayerController;
@@ -36,8 +36,8 @@ public:
 		int rootComponent = 360;
 		int PlayerState = 1000;
 		int WieldedItemComponent = 2096;
-		int HealthComponent = 2136;
-		int DrowningComponent = 0xCA8;
+		int HealthComponent = 2200;
+		int DrowningComponent = 3472;
 	}AActor;
 
 	struct APlayerState
@@ -52,7 +52,7 @@ public:
 
 	struct AItemProxy
 	{
-		int AItemInfo = 1472;
+		int AItemInfo = 1816;
 	}AItemProxy;
 
 	struct AItemInfo
@@ -68,17 +68,17 @@ public:
 
 	struct AShip
 	{
-		int CrewOwnershipComponent = 1952;
-		int ShipInternalWaterComponent = 0x05E0;
-		int ShipOwningActor = 0x3E0;
+		int CrewOwnershipComponent = 1968;
+		int ShipInternalWaterComponent = 1568;
+		int ShipOwningActor = 1000;
 	}AShip;
 
 	struct ACannon
 	{
-		int TimePerFire = 0x5A0;
-		int ProjectileSpeed = 0x5A4;
-		int ProjectileGravityScale = 0x5A8;
-		int ServerPitch = 0x754;
+		int TimePerFire = 1464;
+		int ProjectileSpeed = 1468;
+		int ProjectileGravityScale = 1472;
+		int ServerPitch = 1976;
 	}ACannon;
 
 	struct UCrewOwnershipComponent
@@ -95,7 +95,7 @@ public:
 	{
 		int ServerCenter = 1224;
 		int MapPins = 1256;
-		int TrackedShips = 1156;
+		int TrackedShips = 1272;
 	}AMapTable;
 
 	struct ACrewService
@@ -110,7 +110,7 @@ public:
 
 	struct AWieldableItem
 	{
-		int ItemInfo = 1800;
+		int ItemInfo = 1816;
 	}AWieldableItem;
 };
 extern offsets Offsets;
