@@ -1,16 +1,17 @@
 # Update
 
-update coming 26/11/2022
+updated 19/02/2023
 
 # KingCU.cc-SeaOfThieves-Cheat
 
-Sea Of Thieves cheat - Updated 03/10/2022 (Outdated)
+Sea Of Thieves cheat - Updated 19/02/2023 
 
 This is a POC project, made just for fun.
 For now is 100% undetected, i will update offsets when new SoT version will release.
 The cheat is made in C++ and is external.
 
-Rework and Update of SoT-External-Tool-Premium
+
+Rework and Update of SoT-External-Tool-Premium by xTeJk
 
 # Features 
 
@@ -32,4 +33,5 @@ If you get pdevice error restart the program a few times
 
 # Credits
 
+xTeJk
 DavCU820 
