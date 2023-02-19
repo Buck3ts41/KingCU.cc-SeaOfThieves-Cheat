@@ -1,9 +1,0 @@
-The main thing that you will need to update in order to the cheat to work, are the offsets.
-To update the offsets you need to search on-line for the latest sea of thieves SDK.
-After you found that, put the SDK folder inside the UPDATE folder of the cheat, then run the 
-OffsetsFinder.
-Once you do that, a new file called Offsets should appear.
-Now come the boring part, you need to replace all the values from the cheat offsets file,
-to the new values that you found with offsetsfinder.
-Once you do that, just recompile and it should work.
-
