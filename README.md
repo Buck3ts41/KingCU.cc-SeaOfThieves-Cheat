@@ -10,6 +10,7 @@ This is a POC project, made just for fun.
 For now is 100% undetected, i will update offsets when new SoT version will release.
 The cheat is made in C++ and is external.
 
+Solved lots of errors!
 
 Rework and Update of SoT-External-Tool-Premium by xTeJk
 
