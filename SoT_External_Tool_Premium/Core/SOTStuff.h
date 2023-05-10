@@ -343,7 +343,7 @@ public:
 	float GetOxygenLevel();
 
 private:
-	char __pad0x0[0x108]; // oxygen offset
+	char __pad0x0[0x0110]; // oxygen offset
 	float oxygenLevel;
 };
 
