@@ -14,7 +14,7 @@ public:
 
 	struct UPlayer
 	{
-		int PlayerController = 48;
+		int PlayerController = 0x30;
 	}ULocalPlayer;
 
 	struct ULevel
@@ -27,7 +27,7 @@ public:
 		int Pawn = 0x3D0;
 		int Character = 0x3E0;
 		int CameraManager = 0x458;
-		int ControlRotation = 772;
+		int ControlRotation = 0x304;
 	}APlayerController;
 
 	struct AActor
@@ -78,7 +78,7 @@ public:
 		int TimePerFire = 0x5B8;
 		int ProjectileSpeed = 0x5BC;
 		int ProjectileGravityScale = 0x5C0;
-		int ServerPitch = 1976;
+		int ServerPitch = 0x7B8;
 	}ACannon;
 
 	struct UCrewOwnershipComponent
@@ -105,12 +105,12 @@ public:
 
 	struct UWieldedItemComponent
 	{
-		int WieldedItem = 744;
+		int WieldedItem = 0x2E8;
 	}UWieldedItemComponent;
 
 	struct AWieldableItem
 	{
-		int ItemInfo = 1816;
+		int ItemInfo = 0x718;
 	}AWieldableItem;
 };
 extern offsets Offsets;
