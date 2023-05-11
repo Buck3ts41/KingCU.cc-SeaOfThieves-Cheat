@@ -19,7 +19,7 @@ Rework and Update of SoT-External-Tool-Premium by xTeJk
 - Full ESP
 - Some player settings
 - Aim Helper (Work in progress)
-- Skeleton ESP (Testing)
+- Skeleton ESP (Only in Release, still testing)
 
 # Compilation
 
