@@ -14,7 +14,7 @@ public:
 
 	struct UPlayer
 	{
-		int PlayerController = 0x30;
+		int PlayerController = 48;
 	}ULocalPlayer;
 
 	struct ULevel
@@ -35,9 +35,9 @@ public:
 		int actorId = 0x18;
 		int rootComponent = 0x168;
 		int PlayerState = 0x3E8;
-		int WieldedItemComponent = 0x870;
-		int HealthComponent = 0x898;
-		int DrowningComponent = 0xD98;
+		int WieldedItemComponent = 0x880;
+		int HealthComponent = 0x8A8;
+		int DrowningComponent = 0xDE8;
 	}AActor;
 
 	struct APlayerState
@@ -52,7 +52,7 @@ public:
 
 	struct AItemProxy
 	{
-		int AItemInfo = 0x5C0;
+		int AItemInfo = 0x6C8;
 	}AItemProxy;
 
 	struct AItemInfo
@@ -68,8 +68,8 @@ public:
 
 	struct AShip
 	{
-		int CrewOwnershipComponent = 0x7B0;
-		int ShipInternalWaterComponent = 0x620;
+		int CrewOwnershipComponent = 0x7C0;
+		int ShipInternalWaterComponent = 0x628;
 		int ShipOwningActor = 0x3E8;
 	}AShip;
 
@@ -93,9 +93,9 @@ public:
 
 	struct AMaptTable
 	{
-		int ServerCenter = 0x4C8;
-		int MapPins = 0x4E8;
-		int TrackedShips = 0x4F8;
+		int ServerCenter = 0x4C0;
+		int MapPins = 0x4E0;
+		int TrackedShips = 0x4F0;
 	}AMapTable;
 
 	struct ACrewService
@@ -110,7 +110,7 @@ public:
 
 	struct AWieldableItem
 	{
-		int ItemInfo = 0x718;
+		int ItemInfo = 0x758;
 	}AWieldableItem;
 };
 extern offsets Offsets;
