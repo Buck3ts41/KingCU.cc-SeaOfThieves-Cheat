@@ -42,10 +42,10 @@ Offset Dumper:
 Download the loader and the config file and
 put them in the same directory. 
 You need to have a c++ sdk, usually you find one here:
-https://www.unknowncheats.me/forum/sea-of-thieves/278391-sea-thieves-reversal-structs-offsets-118.html
+https://www.unknowncheats.me/forum/members/3434160.html (Go on the Uploads tab).
 After you downloaded the sdk, put the SDK folder in the
 directory of the loader.
-Start the loader and press 2 for the of dumper. 
+Start the loader and press 2 for the dumper. 
 
 ![Desktop Screenshot 2022 09 12 - 15 14 44 42](https://user-images.githubusercontent.com/107511158/193579090-284759be-3866-4365-96e4-da8fa01d538e.png)
 
