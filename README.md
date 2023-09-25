@@ -33,6 +33,8 @@ If you get pdevice error restart the program a few times
 
 # Usage - Release
 
+THE LOADER IS AUTO-UPDATING!
+
 Cheat:
 Download the loader and the config file and
 put them in the same directory. Start the loader
