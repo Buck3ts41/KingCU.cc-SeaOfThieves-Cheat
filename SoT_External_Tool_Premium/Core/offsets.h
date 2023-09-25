@@ -37,7 +37,7 @@ public:
 		int PlayerState = 0x3E8;
 		int WieldedItemComponent = 0x880;
 		int HealthComponent = 0x8A8;
-		int DrowningComponent = 0xDE8;
+		int DrowningComponent = 0xE08;
 	}AActor;
 
 	struct APlayerState
@@ -52,18 +52,18 @@ public:
 
 	struct AItemProxy
 	{
-		int AItemInfo = 0x6C8;
+		int AItemInfo = 0x690;
 	}AItemProxy;
 
 	struct AItemInfo
 	{
-		int UItemDesc = 0x440;
+		int UItemDesc = 0x458;
 	}AItemInfo;
 
 	struct ABootyItemInfo
 	{
-		int BootyType = 0x540;
-		int Rarity = 0x6B4;
+		int BootyType = 0x558;
+		int Rarity = 0x6CC;
 	}ABootyItemInfo;
 
 	struct AShip
@@ -93,9 +93,9 @@ public:
 
 	struct AMaptTable
 	{
-		int ServerCenter = 0x4C0;
-		int MapPins = 0x4E0;
-		int TrackedShips = 0x4F0;
+		int ServerCenter = 0x4C8;
+		int MapPins = 0x4E8;
+		int TrackedShips = 0x4F8;
 	}AMapTable;
 
 	struct ACrewService
